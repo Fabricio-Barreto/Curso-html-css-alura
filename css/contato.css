@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(#FEFEFE 30%,gray, black)
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.input-padrao {
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(91, 91, 243);
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    width: 40%;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(160, 160, 73);
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background: green;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+table {
+    margin: 20px 0 40px;
+    background: white;
+}
+
+thead {
+    background: rgb(167, 165, 165);
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .btn {
+        width: 60%;
+        margin: 1em auto;
+    }
+
+    .input-padrao{
+        margin: 1em auto;
+    }
+
+    form label, legend {
+        text-align: center;
+    }
+
+    select {
+        display: block;
+        margin: 0 auto;
+    }
+
+    table {
+        margin: 0 auto 10px auto;
+    }
+
+}
